@@ -1,0 +1,146 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.secondtext{
+    font-family: forte;
+}
+.firsttext{
+
+}
+section{
+    display: grid;
+    
+    height: 570px;
+    margin-left: -10px;
+    margin-right: -5px; 
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+}
+.front_photo{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+iframe{
+    border: none;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 5fr 4fr 3px;
+    margin-left: 50px;
+}
+.photobor {
+    /*
+   border: 3px dotted black;
+    width: 300px;*/
+    background-image: url("../../public/images/back1.gif");
+    width: 400px;
+}
+.section-socialbar{
+    color:black;
+    font-size: 25px;
+    margin-left: -35px;
+    margin-top: 300px;  
+}
+aside a{
+    color:gray;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.firsttext{
+    font-size: 25px;
+    font-family: Imprint MT Shadow;
+    color: gray;
+    font-weight: bold;
+    margin-top: 85px;
+    
+}
+.secondtext{
+    font-size: 60px;
+    margin-top: -10px;
+    font-weight: bold;
+ }
+ .but
+ {
+    margin-left: 105px;
+    background-color: black;
+    width: 200px;
+    border-radius: 25px;    
+    color: white;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 12px;
+ }
+ .but:hover{
+    background-color: gray;
+    color:black;
+ }
+ .but:active{
+    background-color: orange;
+    box-shadow: 0 5px rgb(25,25,25);
+    transform:translateY(5px);
+ }
+
+ .logo{
+    margin-left: 50px;
+    margin-top:-5px;
+ }
+ header div~span{
+    margin-right: 50px;
+    
+ }
+ .menus span{
+    margin-right: 30px;
+    font-size: 16px;
+ }
+ .menus{
+    margin-top: 20px;
+
+ }
+
+ .email {
+    margin-top: 15px;
+    margin-right: 75px;
+    font-weight: bold;
+    
+ }
+ .email span{
+    margin-right: 10px;
+    
+ }
+ #pro{
+    
+    font-size: 20px;
+ }
+ email1{
+    font-size: 15px;  
+ }
+ 
+ .menus a{
+    padding: 0 20px;
+    text-decoration: none;   
+    border: 2px solid black;
+    border-radius: 7px;
+    color:black;
+    border-top: none;
+    border-bottom: none;
+    font-family:Harrington;
+    font-weight: bolder;
+    
+ }
+ .menus a:hover{
+    box-shadow: 0 7px rgb(25,25,25);
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    
+ }
+ 
