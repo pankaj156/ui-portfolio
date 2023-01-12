@@ -146,11 +146,18 @@ aside a:hover {
 
  /* For mobile phone*/
  
- @media only screen and (max-width: 620px) {
-   .firsttext, .secondtext , .photobor, .section-socialbar {
-     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+ @media screen and (orientation:portrait)
+ {
+   body{
+      display: grid;
+      grid-template-columns: 12fr;
    }
-}
-
+   .firsttext{
+      grid-row: 2;
+   }
+   .secondtext{
+      grid-row: 3;
+   }
+ }
  
  
