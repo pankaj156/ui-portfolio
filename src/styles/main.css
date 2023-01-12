@@ -146,14 +146,13 @@ aside a:hover {
 
  /* For mobile phone*/
  
- @media (max-width:768px)
- {
+@media screen and (max-width:800px)
+{
+   .firsttext, .secondtext , .photobor , .section-socialbar{
+      width: 100%;
+   }
    
-      h1:hover{
-         color: green;
-      }
-  }
-  
+}
 
  
  
