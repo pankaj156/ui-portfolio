@@ -143,4 +143,17 @@ aside a:hover {
     font-weight: bold;
     
  }
+
+ /* For mobile phone*/
+ 
+ @media (max-width:768px)
+ {
+   header{
+      
+  }
+  a{
+   color:green;
+  }
+
+ }
  
