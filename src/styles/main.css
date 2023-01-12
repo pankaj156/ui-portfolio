@@ -148,12 +148,12 @@ aside a:hover {
  
  @media (max-width:768px)
  {
-   header{
-      
+   
+      h1:hover{
+         color: green;
+      }
   }
-  a{
-   color:green;
-  }
+  
 
- }
+ 
  
